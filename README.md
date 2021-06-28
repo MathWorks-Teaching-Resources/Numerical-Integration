@@ -1,9 +1,9 @@
 # Numerical Integration [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####)
-**Curriculum Module created in collaboration with Dr. Matthew Leineweber, San Jose State University**
+**Curriculum Module created in collaboration with Dr. Matthew Leineweber, San Jose State University.**
 
 _Created with R2020b. Compatible with R2020b and later releases._  
 
-<img src="integration.gif" width="350">
+<img src="https://user-images.githubusercontent.com/81383420/123653415-1c825a00-d7fb-11eb-8411-d0b97b0d76fb.gif" width="350">
 
 
 ## Description ##
