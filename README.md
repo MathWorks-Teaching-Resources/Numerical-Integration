@@ -1,9 +1,9 @@
-# Numerical Integration [![View Numerical Integration on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94963-numerical-integration)
-**Curriculum Module created in collaboration with Dr. Matthew Leineweber, San Jose State University.**
+# Numerical Integration [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####)
+**Curriculum Module created in collaboration with Dr. Matthew Leineweber, San Jose State University**
 
 _Created with R2020b. Compatible with R2020b and later releases._  
 
-<img src="https://user-images.githubusercontent.com/81383420/123653415-1c825a00-d7fb-11eb-8411-d0b97b0d76fb.gif" width="350">
+<img src="integration.gif" width="350">
 
 
 ## Description ##
@@ -12,7 +12,7 @@ This curriculum module contains interactive [live scripts](https://www.mathworks
 The instructions inside the live scripts will guide you through the exercises and activities. Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, when an animation is in progress), use the Stop button in the RUN section of the Live Editor tab in the MATLAB Toolstrip.
 
 ## Suggested Prework ##
-[MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial that teaches the essentials of MATLAB.
+[MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) – a free two-hour introductory tutorial that teaches the essentials of MATLAB.
 
 ## Details ##
 **`TrapezoidRule.mlx, TrapezoidRuleSoln.mlx`**  
