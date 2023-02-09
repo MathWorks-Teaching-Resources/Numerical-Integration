@@ -1,4 +1,4 @@
-# Numerical Integration [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####)
+# Numerical Integration [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94963-numerical-integration)
 **Curriculum Module created in collaboration with Dr. Matthew Leineweber, San Jose State University**
 
 _Created with R2020b. Compatible with R2020b and later releases._  
