@@ -52,12 +52,12 @@ MATLAB® is used throughout.
 <a name="H_D1A2E3C6"></a>
 # Scripts
 <a name="H_92B379B9"></a>
-## [**TrapezoidRule.mlx**](TrapezoidRule.mlx)
+## [**TrapezoidRule.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=TrapezoidRule.mlx)
 | <img src="Images/TrapImage.png" width="171" alt="TrapImage.png"> | **In this script, students will...** <br>-  Explain numerical quadrature and its relationship to the definite integral <br>-  Describe how the trapezoid rule is derived <br>-  Illustrate the trapezoid rule graphically <br>-  Compare and contrast integration of a continuous function with integration of tabulated data <br>-  Implement the trapezoid rule in MATLAB  |
 | :-- | :-- |
 
 <a name="H_7BC300E3"></a>
-## [**SimpsonsRules.mlx**](SimpsonsRules.mlx)
+## [**SimpsonsRules.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=SimpsonsRules.mlx)
 | <img src="Images/SimpRuleIm.png" width="171" alt="SimpRuleIm.png"> | **In this script, students will...** <br>-  Describe how Lagrange interpolating polynomials can be used to derive integration rules <br>-  Illustrate Simpson’s 1/3 rule graphically <br>-  Explain the steps required to implement Simpson’s 1/3 rule <br>-  Compare the accuracy and limitations of Simpson’s 1/3 rule to those of Simpson’s 3/8 rule <br>-  Implement Simpson’s 3/8 rule in MATLAB  |
 | :-- | :-- |
 
