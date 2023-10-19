@@ -64,7 +64,7 @@ MATLAB® is used throughout.
 <a name="H_A532299F"></a>
 # License
 
-The license for this module is available in the [LICENSE.md](https://github.com/MathWorks-Teaching-Resources/REPO_NAME/blob/release/LICENSE.md).
+The license for this module is available in the [LICENSE.md](https://github.com/MathWorks-Teaching-Resources/Numerical-Integration/blob/main/LICENSE.md).
 
 # Related Courseware Modules
 | **Title** |  | **Available on:**  |
