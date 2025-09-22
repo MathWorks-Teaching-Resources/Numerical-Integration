@@ -8,13 +8,21 @@ on:
     branches: [ release ]
   workflow_dispatch:
 
+# Add permission to write GitHub pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   test:
     strategy: 
       fail-fast: false
       matrix:
-        MATLABVersion: [R2024a,R2024b]
+        MATLABVersion: [R2024b,R2025a]
     runs-on: ubuntu-latest
+    env:
+      LD_PRELOAD: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
     steps:
       # Checks-out your repository
       - uses: actions/checkout@v4
@@ -32,8 +40,7 @@ jobs:
         uses: matlab-actions/setup-matlab@v2
         with:
           release: ${{ matrix.MATLABVersion }}
-          products:
-          # Simulink Statistics_and_Machine_Learning_Toolbox
+          products: # Simulink Statistics_and_Machine_Learning_Toolbox
           # List required products above in the format shown (and uncomment them)
           # List of product strings:
           # Simulink
@@ -51,10 +58,11 @@ jobs:
 
       # Upload the test results as artifact
       - name: Upload TestResults
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: TestResults_${{ matrix.MATLABVersion }}
-          path: ./SoftwareTests/TestResults_${{ matrix.MATLABVersion }}.txt
+          path: ./public/*
           overwrite: true
 
   badge:
@@ -68,7 +76,7 @@ jobs:
       # Checks-out your repository
       - uses: actions/checkout@v4
       
-      # Sets up R2024b
+      # Sets up R2023b
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v2
         with:
@@ -78,15 +86,26 @@ jobs:
       - name: Download All TestResults
         uses: actions/download-artifact@v4
         with:
-          path: SoftwareTests
+          path: public
           pattern: TestResults_*
           merge-multiple: true
-
+          
       # Create the test results badge
-      - name: Run CreateBadge
+      - name: Run PostSmokeTest
         uses: matlab-actions/run-command@v2
         with:
-          command: openProject(pwd); CreateBadge;
+          command: openProject(pwd); PostSmokeTest;
+      
+      # Deploy reports to GitHub pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       # Commit the JSON for the MATLAB releases badge 
       - name: Commit changed files
