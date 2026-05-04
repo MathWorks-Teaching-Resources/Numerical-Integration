@@ -1,0 +1,3 @@
+Name,Passed,Failed,Incomplete,Duration,Details
+SmokeTests[Project=Numerical_Integration]/SmokeRun(File=SimpsonsRules.mlx),1,0,0,3.0787188,
+SmokeTests[Project=Numerical_Integration]/SmokeRun(File=TrapezoidRule.mlx),1,0,0,4.8300957,
