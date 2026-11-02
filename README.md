@@ -5,13 +5,15 @@
 
 Learn the Trapezoid Rule and Simpson's Rule methods of numerical integration.
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94963-numerical-integration) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=README.mlx)
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94963-numerical-integration) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=README.m)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Numerical-Integration/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Numerical-Integration)
 
 **Curriculum Module**
 
-_Created with R2020b. Compatible with R2020b and later releases._
+_Requires MATLAB R2025a or newer._
+
+MATLAB R2024b or older: use the [legacy MLX release](https://github.com/MathWorks-Teaching-Resources/Numerical-Integration/releases/tag/mlx).
 
 # Information
 
@@ -56,14 +58,16 @@ MATLAB® is used throughout.
 <a name="H_D1A2E3C6"></a>
 # Scripts
 <a name="H_92B379B9"></a>
-## [**TrapezoidRule.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=TrapezoidRule.mlx)
-| <img src="Images/TrapImage.png" width="171" alt="TrapImage.png"> | **In this script, students will...** <br>-  Explain numerical quadrature and its relationship to the definite integral <br>-  Describe how the trapezoid rule is derived <br>-  Illustrate the trapezoid rule graphically <br>-  Compare and contrast integration of a continuous function with integration of tabulated data <br>-  Implement the trapezoid rule in MATLAB  |
+## [**TrapezoidRule.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=Scripts/TrapezoidRule.m)
+| | In this script, students will... |
 | :-- | :-- |
+| <img src="Images/TrapImage.png" width="171" alt="TrapImage.png"> | <ul><li>Explain numerical quadrature and its relationship to the definite integral</li><li>Describe how the trapezoid rule is derived</li><li>Illustrate the trapezoid rule graphically</li><li>Compare and contrast integration of a continuous function with integration of tabulated data</li><li>Implement the trapezoid rule in MATLAB</li></ul> |
 
 <a name="H_7BC300E3"></a>
-## [**SimpsonsRules.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=SimpsonsRules.mlx)
-| <img src="Images/SimpRuleIm.png" width="171" alt="SimpRuleIm.png"> | **In this script, students will...** <br>-  Describe how Lagrange interpolating polynomials can be used to derive integration rules <br>-  Illustrate Simpson’s 1/3 rule graphically <br>-  Explain the steps required to implement Simpson’s 1/3 rule <br>-  Compare the accuracy and limitations of Simpson’s 1/3 rule to those of Simpson’s 3/8 rule <br>-  Implement Simpson’s 3/8 rule in MATLAB  |
+## [**SimpsonsRules.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Integration&project=NumericalIntegration.prj&file=Scripts/SimpsonsRules.m)
+| | In this script, students will... |
 | :-- | :-- |
+| <img src="Images/SimpRuleIm.png" width="171" alt="SimpRuleIm.png"> | <ul><li>Describe how Lagrange interpolating polynomials can be used to derive integration rules</li><li>Illustrate Simpson’s 1/3 rule graphically</li><li>Explain the steps required to implement Simpson’s 1/3 rule</li><li>Compare the accuracy and limitations of Simpson’s 1/3 rule to those of Simpson’s 3/8 rule</li><li>Implement Simpson’s 3/8 rule in MATLAB</li></ul> |
 
 <a name="H_A532299F"></a>
 # License
@@ -73,8 +77,8 @@ The license for this module is available in the [LICENSE.md](https://github.com/
 # Related Courseware Modules
 | **Title** |  | **Available on:**  |
 | :-- | :-- | :-- |
-| [**Calculus: Integrals**](https://www.mathworks.com/matlabcentral/fileexchange/105740-calculus-integrals) | <img src="Images/image_5.png" width="171" alt="image_5.png"> | [<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/105740-calculus-integrals)[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Calculus-Integrals&project=Integrals.prj) [GitHub](https://github.com/MathWorks-Teaching-Resources/Calculus-Integrals)   |
-| [**Calculus: Derivatives**](https://www.mathworks.com/matlabcentral/fileexchange/99249-calculus-derivatives) | <img src="Images/image_8.png" width="171" alt="image_8.png"> | [<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/99249-calculus-derivatives)[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Calculus-Derivatives&project=Derivatives.prj) [GitHub](https://github.com/MathWorks-Teaching-Resources/Calculus-Derivatives)   |
+|<br> [**Calculus: Integrals**](https://www.mathworks.com/matlabcentral/fileexchange/105740-calculus-integrals) | <img src="Images/image_5.png" width="171" alt="image_5.png"> | <br>[<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/105740-calculus-integrals)<br>[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Calculus-Integrals&project=Integrals.prj) <br>[GitHub](https://github.com/MathWorks-Teaching-Resources/Calculus-Integrals)   |
+|<br> [**Calculus: Derivatives**](https://www.mathworks.com/matlabcentral/fileexchange/99249-calculus-derivatives) | <img src="Images/image_8.png" width="171" alt="image_8.png"> | <br>[<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/99249-calculus-derivatives)<br>[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Calculus-Derivatives&project=Derivatives.prj) <br>[GitHub](https://github.com/MathWorks-Teaching-Resources/Calculus-Derivatives)   |
 | <br>[**Numerical Methods with Applications**](https://www.mathworks.com/matlabcentral/fileexchange/111490-numerical-methods-with-applications) | <img src="Images/image_11.png" width="171" alt="image_11.png"> | <br>[<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/111490-numerical-methods-with-applications)<br>[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Numerical-Methods-with-Applications&project=NumericalMethods.prj)  <br>[GitHub](https://github.com/MathWorks-Teaching-Resources/Numerical-Methods-with-Applications)   |
 
 
@@ -88,7 +92,7 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Numerical-Integration/blob/release/CONTRIBUTING.md) page on GitHub.
 
 
-© Copyright 2025 The MathWorks, Inc
+© Copyright 2026 The MathWorks, Inc
 
 
 

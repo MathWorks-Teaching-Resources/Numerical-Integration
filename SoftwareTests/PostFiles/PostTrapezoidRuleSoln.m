@@ -1,3 +1,3 @@
-%  Post-run script for TrapezoidRuleSoln.mlx
+%  Post-run script for TrapezoidRuleSoln.m
 % ---- Post-run commands -----
- 
+% <matlab:ShareFeedback Share your feedback>
